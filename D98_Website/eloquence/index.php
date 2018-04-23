@@ -4,17 +4,17 @@ session_start();
 
 $getar = $_GET;
 $getkeys = array_keys($getar);
- 
+
 for($i=0; $i<count($getkeys); $i++){
 $k = $getkeys[$i];
 $v = $getar[$k];
 ${$k}=$v;
 }
- 
+
 
 $getar = $_POST;
 $getkeys = array_keys($getar);
- 
+
 for($i=0; $i<count($getkeys); $i++){
 $k = $getkeys[$i];
 $v = $getar[$k];
@@ -58,7 +58,7 @@ body {
 	color: #ffffff;
 	line-height: 20px;
 
-}	
+}
 
 a { color:#009BD8; }
 a:hover { color:#C12088; }
@@ -85,17 +85,17 @@ padding:10px 15px;
 font-size: 20px;
 color:#ffffff;
 float:left;
-}	
-</style>	
+}
+</style>
 
 <script>
 
 $(document).ready(function(){
 
   $('.fancybox').fancybox();
-  
+
   $(".owl-carousel").owlCarousel({
-	  
+
 	  autoplay :true,
 	  loop :true,
 	  autoplayTimeout : 4000,
@@ -104,20 +104,20 @@ $(document).ready(function(){
 	  responsive :{
         0:{
             items:1,
-            
+
         },
         600:{
             items:3,
-            
+
         },
         1000:{
             items:3,
         }
-	  }	
+	  }
 	});
 
 	$( ".owl-prev").html('<i class="fa fa-chevron-left"></i>');
-	$( ".owl-next").html('<i class="fa fa-chevron-right"></i>');	
+	$( ".owl-next").html('<i class="fa fa-chevron-right"></i>');
 });
 </script>
 <style>
@@ -147,7 +147,7 @@ $(document).ready(function(){
 
 .owl-carousel .owl-prev {
 	left: 10px;
-	
+
 }
 
 .owl-carousel .owl-next {
@@ -162,9 +162,9 @@ $(document).ready(function(){
     if(location.hash.length !== 0) {
         window.scrollTo(window.scrollX, window.scrollY - 100);
 		}
-	}	
-	
-	$(document).ready(function() 
+	}
+
+	$(document).ready(function()
 	{
 
 	// This will capture hash changes while on the page
@@ -173,13 +173,13 @@ $(document).ready(function(){
 	window.setTimeout(offsetAnchor, 1);
 
 	});
-</script>	
+</script>
 
 
 <script src="js/jquery.countdown.js"></script>
 <script>
 $(document).ready(function(){
-	
+
 	$('#clock').countdown('2018/05/18', function(event) {
 		var $this = $(this).html(event.strftime(''
 		+ '<span>%D</span> days '
@@ -189,7 +189,7 @@ $(document).ready(function(){
 	});
 
 });
-</script> 
+</script>
 
 </head>
 
@@ -225,44 +225,44 @@ $(document).ready(function(){
 		<div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-4" style="padding-top:20px;">
 		<span style="font-weight:700; font-size:16px;">ELOQUENCE  2018 </span>
 		</div>
-		
+
 		<div class="col-xs-12 col-sm-12 col-md-4 col-md-push-4 col-lg-4 col-xl-4" style="padding:10px; text-align:right;">
-			
+
 			<a href="javascript:void(0);" onclick="javascript:$('#mobile_menu').show();"><i class="fa fa-bars" aria-hidden="true" style="color:#ffffff; font-size:32px;"></i> <span style="font-weight:700; font-size:18px; color:#ffffff;">MENU</span></a>&nbsp;&nbsp;&nbsp;&nbsp;
-			
+
 			<a href="https://www.facebook.com/Eloquence.d98" target="_blank"><i class="fa fa-facebook" aria-hidden="true" style="color:#ffffff; font-size:22px;"></i></a> &nbsp;&nbsp;
 			<a href="https://twitter.com/Eloquence_D98 " target="_blank"><i class="fa fa-twitter" aria-hidden="true" style="color:#ffffff; font-size:22px;"></i></a> &nbsp;&nbsp;&nbsp;&nbsp;
 
 		</div>
 
-		
+
 		<div class="hidden-xs hidden-sm col-sm-12 col-md-4 col-md-pull-4 col-lg-4 col-xl-4" style="padding-top:10px;">
-		<link href="https://fonts.googleapis.com/css?family=Orbitron" rel="stylesheet">	
+		<link href="https://fonts.googleapis.com/css?family=Orbitron" rel="stylesheet">
 		<div id="clock" style="font-family: 'Orbitron', sans-serif; color:#ffffff; font-size:24px; line-height:42px; text-align:center;"></div>
 		</div>
-		
 
-</div>	
-	
 
-<!-- Full page -->	
+</div>
+
+
+<!-- Full page -->
 <div class="container-fluid">
 
 	<!-- Section -->
-	<div class="section" style="padding-top:90px;">	
-	
+	<div class="section" style="padding-top:90px;">
+
 
 	<div class="col-xs-12 col-sm-12 col-md-7 col-lg-7 col-xl-7" style="padding-top:20px; padding-bottom:20px;">
 
 		<div class="videoWrapper">
 		<!-- Copy & Pasted from YouTube -->
-		<iframe width="560" height="349" src="http://www.youtube.com/embed/qFwFxod18cA?controls=0&showinfo=0&rel=0&autoplay=1&loop=1" frameborder="0" allowfullscreen></iframe>
+		<iframe width="560" height="349" src="https://www.youtube.com/embed/5mGbtGTdDQA?controls=0&showinfo=0&rel=0&autoplay=1&loop=1" frameborder="0" allowfullscreen></iframe>
 		</div>
 	</div>
-	
+
 	<div class="col-xs-12 col-sm-12 col-md-5 col-lg-5 col-xl-5" >
 	<img src="images/logo.png" class="img-responsive"  />
-	
+
 	<p style="font-size:18px;">ELOQUENCE 2018, the  Annual Conference of Toastmasters International, District 98 will be held from <b>18th May 2018 to 20th May 2018</b> at Hyderabad.</p>
 
 	<p>This Mega Event will bring together over 500 Toastmasters from across India to learn, teach and share communication and leadership skills and experiences. </p>
@@ -270,47 +270,47 @@ $(document).ready(function(){
 	<p>Among them will be some of India’s finest Toastmasters who will compete to be the District Champion representing India at the World Championship of Public Speaking.</p>
 
 	<p>ELOQUENCE 2018 will have educational sessions, networking opportunities, and fun activities spread over three action packed days.</p>
-	
-	<p><a href="https://www.meraevents.com/event/eloquence-2018" target="_blank" class="reg_button">REGISTER NOW</a></p>
-	
-	
-	
+
+	<p><a href="https://www.meraevents.com/event/Eloquence2018" target="_blank" class="reg_button">REGISTER NOW</a></p>
+
+
+
 	</div>
 
-	</div> 
+	</div>
 	<!-- Section Ends -->
-	
+
 	<!-- Section -->
-	<div class="section" style="padding-top:100px;">	
+	<div class="section" style="padding-top:100px;">
 
 
 	<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6" >
 
 		<div style="width:100%; height:auto; float:left; text-align:center; padding:45px 0px 20px;">
-		
+
 		<a name="hospitality"></a>
 		<span style="font-weight:700; font-size:16px;">HOSPITALITY</span><br /><br />
-		
+
 		<p>Experience the wonderful Accommodation at Hyderabad by registering at the below link:<br />
 		<a href="http://district98.org/HydHostsYou" target="_blank">http://district98.org/HydHostsYou</a><br />...............<br /></p>
 
 		<p>And if you like to come early to Hyderabad to savour the City of Pearls or spent an extra day or two, register below for the extended Accommodation:<br />
 		<a href="https://www.meraevents.com/event/EloquenceAcco2" target="_blank">https://www.meraevents.com/event/EloquenceAcco2</a></p>
 
-		
+
 		</div>
 
-	
-	</div> 
-	
+
+	</div>
+
 	<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6" >
 
 		<div style="width:100%; height:auto; float:left; text-align:center; padding:45px 0px 20px;">
-		
+
 		<a name="useful"></a>
 		<span style="font-weight:700; font-size:16px;">USEFUL LINKS</span><br /><br />
-		
-		
+
+
 		<p>Haven’t you registered for the most awaiting Mammoth conference? You still have a chance to register below:<br />
 		<a href="http://district98.org/HydAwaitsYou" target="_blank">http://district98.org/HydAwaitsYou</a><br />...............<br /></p>
 
@@ -331,28 +331,28 @@ $(document).ready(function(){
 
 		<p>Ramzan Night Walk:<br />
 		Coming soon		</p>
-		
-		
-		
-		
+
+
+
+
 		</div>
-		
 
-	
-	</div> 	
 
-	</div> 
+
+	</div>
+
+	</div>
 	<!-- Section Ends -->
-	
+
 
 	<!-- Section -->
-	<div class="section" style="padding-top:100px;">	
-	
+	<div class="section" style="padding-top:100px;">
+
 	<div style="width:100%; height:auto; float:left; text-align:center; padding:45px 0px 20px;">
 	<a name="speakers"></a>
 	<span style="font-weight:700; font-size:16px;">SPEAKERS</span>
 	</div>
-	
+
 	<div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 col-xl-3" >
 	<a href="banners/manoj_vasudevan.jpg" class="fancybox"><img src="banners/manoj_vasudevan.jpg" class="img-responsive" /></a>
 	</div>
@@ -361,21 +361,21 @@ $(document).ready(function(){
 	<a href="banners/Sunitha-Krishnan.jpg" class="fancybox"><img src="banners/Sunitha-Krishnan.jpg" class="img-responsive" /></a>
 	</div>
 
-	
-	</div> 
+
+	</div>
 	<!-- Section Ends -->
 
 
-	
+
 	<!-- Section -->
-	<div class="section hidden-xs hidden-sm" style="padding-top:100px;">	
-	
+	<div class="section hidden-xs hidden-sm" style="padding-top:100px;">
+
 	<div style="width:100%; height:auto; float:left; text-align:center; padding:45px 0px 20px;">
 	<span style="font-weight:700; font-size:16px;">WHAT'S HAPPENING @ ELOQUENCE</span>
 	</div>
 
 <?php
-	
+
 include( './social-stream/social-stream.php' ); // Path to PHP Social Stream main file
 
 // API Credentials
@@ -387,25 +387,25 @@ $GLOBALS['api'] = array(
     )
 
 );
-		
+
 echo social_stream(
         array(
             'id' => '1',
             'type' => 'wall',
 			'network' => array(
-				
+
                 'facebook' => array(
                     'facebook_id_1' => array(
                         '1674659149478352' // Replace with your Facebook page ID
                     ),
                     'facebook_pagefeed' => 'posts'
-					
-					
-					
-					
-                )				
-				
-				
+
+
+
+
+                )
+
+
             ),
             'theme' => 'sb-modern-dark',
 			'itemwidth' => 250,
@@ -417,17 +417,17 @@ echo social_stream(
         )
     );
 
-		
-	
 
 
-?>	
-	
-	
+
+
+?>
+
+
 	</div>
 
 </div>
-	
+
 
 
 
