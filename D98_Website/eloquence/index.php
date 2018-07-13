@@ -202,7 +202,10 @@ $(document).ready(function(){
 	</div>
 
 	<div style="width:100%; height:auto; padding:20px; border-bottom:2px solid #DC5C37;">
-	<a href="https://www.meraevents.com/event/eloquence-2018" target="_blank"><span style="font-weight:700; font-size:18px; color:#ffffff;">REGISTRATION</span></a>
+	<a href="https://www.meraevents.com/event/Eloquence2018" target="_blank"><span style="font-weight:700; font-size:18px; color:#ffffff;">REGISTRATION</span></a>
+	</div>
+	<div style="width:100%; height:auto; padding:20px; border-bottom:2px solid #DC5C37;">
+	<a href="#MyEloquence" onclick="javascript:$('#mobile_menu').hide();"><span style="font-weight:700; font-size:18px; color:#ffffff;">MyEloquence</span></a>
 	</div>
 	<div style="width:100%; height:auto; padding:20px; border-bottom:2px solid #DC5C37;">
 	<a href="#hospitality" onclick="javascript:$('#mobile_menu').hide();"><span style="font-weight:700; font-size:18px; color:#ffffff;">HOSPITALITY</span></a>
@@ -263,13 +266,11 @@ $(document).ready(function(){
 	<div class="col-xs-12 col-sm-12 col-md-5 col-lg-5 col-xl-5" >
 	<img src="images/logo.png" class="img-responsive"  />
 
-	<p style="font-size:18px;">ELOQUENCE 2018, the  Annual Conference of Toastmasters International, District 98 will be held from <b>18th May 2018 to 20th May 2018</b> at Hyderabad.</p>
+	<p>Eloquence is the Annual Conference of District 98, Toastmasters International. This year, it will be held from <b> 18th to 20th May 2018</b> at the Novotel Hyderabad International Convention Center.</p>
 
-	<p>This Mega Event will bring together over 500 Toastmasters from across India to learn, teach and share communication and leadership skills and experiences. </p>
+	<p>The conference will bring together over 500 Toastmasters from across India for an unmatched experience. Attendees will get to witness the District International Speech Contest, which will feature nine of India's finest orators vying for the chance to represent India at the World Championship of Public Speaking!</p>
 
-	<p>Among them will be some of India’s finest Toastmasters who will compete to be the District Champion representing India at the World Championship of Public Speaking.</p>
-
-	<p>ELOQUENCE 2018 will have educational sessions, networking opportunities, and fun activities spread over three action packed days.</p>
+	<p>Eloquence will also host world-renowned speakers, activists, storytellers, and leaders who are ready to inspire and enthrall audiences at the conference!</p>
 
 	<p><a href="https://www.meraevents.com/event/Eloquence2018" target="_blank" class="reg_button">REGISTER NOW</a></p>
 
@@ -279,6 +280,27 @@ $(document).ready(function(){
 
 	</div>
 	<!-- Section Ends -->
+
+	<!-- Section -->
+	<div class="section" style="padding-top:100px;">
+
+	<div style="width:100%; height:auto; float:left; text-align:center; padding:45px 0px 20px;">
+	<a name="speakers"></a>
+	<span style="font-weight:700; font-size:16px;">SPEAKERS</span>
+	</div>
+
+	<div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 col-xl-3" >
+	<a href="banners/manoj_vasudevan.jpg" class="fancybox"><img src="banners/manoj_vasudevan.jpg" class="img-responsive" /></a>
+	</div>
+
+	<div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 col-xl-3" >
+	<a href="banners/Sunitha-Krishnan.jpg" class="fancybox"><img src="banners/Sunitha-Krishnan.jpg" class="img-responsive" /></a>
+	</div>
+
+
+	</div>
+	<!-- Section Ends -->
+
 
 	<!-- Section -->
 	<div class="section" style="padding-top:100px;">
@@ -300,9 +322,13 @@ $(document).ready(function(){
 
 		</div>
 
-
+</div>
 	</div>
+	<!-- Section Ends -->
 
+
+	<!-- Section -->
+	<div class="section" style="padding-top:100px;">
 	<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6" >
 
 		<div style="width:100%; height:auto; float:left; text-align:center; padding:45px 0px 20px;">
@@ -337,33 +363,11 @@ $(document).ready(function(){
 
 		</div>
 
-
-
-	</div>
+</div>
 
 	</div>
-	<!-- Section Ends -->
 
-
-	<!-- Section -->
-	<div class="section" style="padding-top:100px;">
-
-	<div style="width:100%; height:auto; float:left; text-align:center; padding:45px 0px 20px;">
-	<a name="speakers"></a>
-	<span style="font-weight:700; font-size:16px;">SPEAKERS</span>
-	</div>
-
-	<div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 col-xl-3" >
-	<a href="banners/manoj_vasudevan.jpg" class="fancybox"><img src="banners/manoj_vasudevan.jpg" class="img-responsive" /></a>
-	</div>
-
-	<div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 col-xl-3" >
-	<a href="banners/Sunitha-Krishnan.jpg" class="fancybox"><img src="banners/Sunitha-Krishnan.jpg" class="img-responsive" /></a>
-	</div>
-
-
-	</div>
-	<!-- Section Ends -->
+<!-- Section Ends -->
 
 
 
